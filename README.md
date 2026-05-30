@@ -25,6 +25,7 @@ Organize by runtime or share common files at the top level:
 llm-agents/
 ├── README.md                 # this file
 ├── AGENTS.md                 # default agent entry (all platforms)
+├── scripts/                  # custom utilities (e.g. pdf-replace from OpenClaw ~/bin)
 ├── shared/                   # cross-platform: skills, hooks, prompts
 │   ├── skills/
 │   └── prompts/
@@ -70,3 +71,5 @@ cd llm-agents
 ## Status
 
 Repository scaffold — add `shared/`, `openclaw/`, and `hermes/` content as you wire each agentic system.
+
+**Scripts:** Copy tools from OpenClaw (or other hosts) into `scripts/` — see [scripts/README.md](scripts/README.md). Example: `pdf-replace` from `~/bin/pdf-replace` on the OpenClaw VM.

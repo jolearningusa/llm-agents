@@ -20,6 +20,7 @@ Submodule path: `llm-agents/` in [mothership](https://github.com/jolearningusa/m
 ```text
 llm-agents/
 ├── AGENTS.md          # this file
+├── scripts/           # custom utilities (copy from OpenClaw ~/bin, etc.)
 ├── shared/            # cross-platform skills & prompts
 ├── openclaw/          # OpenClaw-specific
 ├── hermes/            # Hermes-specific
